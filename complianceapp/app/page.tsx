@@ -4,7 +4,8 @@ import ComplianceChecker from './ComplianceChecker';
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <main className="flex min-h-screen flex-col items-center justify-between p-24 relative">
+      <img src="/charteredlogo.png" alt="Chartered Logo" />
       <div className="flex flex-col items-center justify-center">
         <h1 className="text-6xl font-bold text-center">
           Welcome to Chartered Compliance Checker!
@@ -15,7 +16,7 @@ export default function Home() {
       </div>
       <ComplianceChecker />
     </main>
-  )
+  );
 }
 
 
